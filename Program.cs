@@ -9,6 +9,8 @@ namespace AulaPOO_Encapsulamento
         {
             MasterCard mc = new MasterCard();
             
+            mc.Parcelas = 12;
+            System.Console.WriteLine(mc.Parcelas);
         }
     }
 }
